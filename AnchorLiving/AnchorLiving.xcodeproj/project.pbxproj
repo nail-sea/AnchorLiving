@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6964CC741ECEEAA200676CB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6964CC731ECEEAA200676CB6 /* main.m */; };
+		6964CC771ECEEAA200676CB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6964CC761ECEEAA200676CB6 /* AppDelegate.m */; };
+		6964CC7A1ECEEAA200676CB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6964CC791ECEEAA200676CB6 /* ViewController.m */; };
+		6964CC7D1ECEEAA200676CB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6964CC7B1ECEEAA200676CB6 /* Main.storyboard */; };
+		6964CC7F1ECEEAA200676CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6964CC7E1ECEEAA200676CB6 /* Assets.xcassets */; };
+		6964CC821ECEEAA200676CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6964CC801ECEEAA200676CB6 /* LaunchScreen.storyboard */; };
+		6964CC8D1ECEEAA200676CB6 /* AnchorLivingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6964CC8C1ECEEAA200676CB6 /* AnchorLivingTests.m */; };
+		6964CC981ECEEAA200676CB6 /* AnchorLivingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6964CC971ECEEAA200676CB6 /* AnchorLivingUITests.m */; };
+		7A5455C06E67DB232F8A951D /* libPods-AnchorLiving.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC7A5E2F9F291F701A3BF9E /* libPods-AnchorLiving.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6964CC891ECEEAA200676CB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6964CC671ECEEAA200676CB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6964CC6E1ECEEAA200676CB6;
+			remoteInfo = AnchorLiving;
+		};
+		6964CC941ECEEAA200676CB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6964CC671ECEEAA200676CB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6964CC6E1ECEEAA200676CB6;
+			remoteInfo = AnchorLiving;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BC7A5E2F9F291F701A3BF9E /* libPods-AnchorLiving.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnchorLiving.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		693AFAA4C6B5123F6D0B5DCC /* Pods-AnchorLiving.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnchorLiving.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnchorLiving/Pods-AnchorLiving.debug.xcconfig"; sourceTree = "<group>"; };
+		6964CC6F1ECEEAA200676CB6 /* AnchorLiving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnchorLiving.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6964CC731ECEEAA200676CB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6964CC751ECEEAA200676CB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6964CC761ECEEAA200676CB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6964CC781ECEEAA200676CB6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6964CC791ECEEAA200676CB6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6964CC7C1ECEEAA200676CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6964CC7E1ECEEAA200676CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6964CC811ECEEAA200676CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6964CC831ECEEAA200676CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6964CC881ECEEAA200676CB6 /* AnchorLivingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnchorLivingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6964CC8C1ECEEAA200676CB6 /* AnchorLivingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnchorLivingTests.m; sourceTree = "<group>"; };
+		6964CC8E1ECEEAA200676CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6964CC931ECEEAA200676CB6 /* AnchorLivingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnchorLivingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6964CC971ECEEAA200676CB6 /* AnchorLivingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnchorLivingUITests.m; sourceTree = "<group>"; };
+		6964CC991ECEEAA200676CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5B93CA02491BF9253AC0A5 /* Pods-AnchorLiving.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnchorLiving.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnchorLiving/Pods-AnchorLiving.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6964CC6C1ECEEAA200676CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5455C06E67DB232F8A951D /* libPods-AnchorLiving.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6964CC851ECEEAA200676CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6964CC901ECEEAA200676CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F33C807035BF4A154FA06F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BC7A5E2F9F291F701A3BF9E /* libPods-AnchorLiving.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6964CC661ECEEAA200676CB6 = {
+			isa = PBXGroup;
+			children = (
+				6964CC711ECEEAA200676CB6 /* AnchorLiving */,
+				6964CC8B1ECEEAA200676CB6 /* AnchorLivingTests */,
+				6964CC961ECEEAA200676CB6 /* AnchorLivingUITests */,
+				6964CC701ECEEAA200676CB6 /* Products */,
+				AF4E31A377DAC7F6B5BD4093 /* Pods */,
+				1F33C807035BF4A154FA06F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6964CC701ECEEAA200676CB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6964CC6F1ECEEAA200676CB6 /* AnchorLiving.app */,
+				6964CC881ECEEAA200676CB6 /* AnchorLivingTests.xctest */,
+				6964CC931ECEEAA200676CB6 /* AnchorLivingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6964CC711ECEEAA200676CB6 /* AnchorLiving */ = {
+			isa = PBXGroup;
+			children = (
+				6964CC751ECEEAA200676CB6 /* AppDelegate.h */,
+				6964CC761ECEEAA200676CB6 /* AppDelegate.m */,
+				6964CC781ECEEAA200676CB6 /* ViewController.h */,
+				6964CC791ECEEAA200676CB6 /* ViewController.m */,
+				6964CCA51ECEEACF00676CB6 /* Other */,
+				6964CC721ECEEAA200676CB6 /* Supporting Files */,
+			);
+			path = AnchorLiving;
+			sourceTree = "<group>";
+		};
+		6964CC721ECEEAA200676CB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6964CC731ECEEAA200676CB6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6964CC8B1ECEEAA200676CB6 /* AnchorLivingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6964CC8C1ECEEAA200676CB6 /* AnchorLivingTests.m */,
+				6964CC8E1ECEEAA200676CB6 /* Info.plist */,
+			);
+			path = AnchorLivingTests;
+			sourceTree = "<group>";
+		};
+		6964CC961ECEEAA200676CB6 /* AnchorLivingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6964CC971ECEEAA200676CB6 /* AnchorLivingUITests.m */,
+				6964CC991ECEEAA200676CB6 /* Info.plist */,
+			);
+			path = AnchorLivingUITests;
+			sourceTree = "<group>";
+		};
+		6964CCA51ECEEACF00676CB6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6964CC7E1ECEEAA200676CB6 /* Assets.xcassets */,
+				6964CC7B1ECEEAA200676CB6 /* Main.storyboard */,
+				6964CC801ECEEAA200676CB6 /* LaunchScreen.storyboard */,
+				6964CC831ECEEAA200676CB6 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		AF4E31A377DAC7F6B5BD4093 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				693AFAA4C6B5123F6D0B5DCC /* Pods-AnchorLiving.debug.xcconfig */,
+				8E5B93CA02491BF9253AC0A5 /* Pods-AnchorLiving.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6964CC6E1ECEEAA200676CB6 /* AnchorLiving */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6964CC9C1ECEEAA200676CB6 /* Build configuration list for PBXNativeTarget "AnchorLiving" */;
+			buildPhases = (
+				F8F40FB1958F68B07D465090 /* [CP] Check Pods Manifest.lock */,
+				6964CC6B1ECEEAA200676CB6 /* Sources */,
+				6964CC6C1ECEEAA200676CB6 /* Frameworks */,
+				6964CC6D1ECEEAA200676CB6 /* Resources */,
+				80B915683EE3B78657373476 /* [CP] Embed Pods Frameworks */,
+				AC755789EF805D9B49373845 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnchorLiving;
+			productName = AnchorLiving;
+			productReference = 6964CC6F1ECEEAA200676CB6 /* AnchorLiving.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6964CC871ECEEAA200676CB6 /* AnchorLivingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6964CC9F1ECEEAA200676CB6 /* Build configuration list for PBXNativeTarget "AnchorLivingTests" */;
+			buildPhases = (
+				6964CC841ECEEAA200676CB6 /* Sources */,
+				6964CC851ECEEAA200676CB6 /* Frameworks */,
+				6964CC861ECEEAA200676CB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6964CC8A1ECEEAA200676CB6 /* PBXTargetDependency */,
+			);
+			name = AnchorLivingTests;
+			productName = AnchorLivingTests;
+			productReference = 6964CC881ECEEAA200676CB6 /* AnchorLivingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6964CC921ECEEAA200676CB6 /* AnchorLivingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6964CCA21ECEEAA200676CB6 /* Build configuration list for PBXNativeTarget "AnchorLivingUITests" */;
+			buildPhases = (
+				6964CC8F1ECEEAA200676CB6 /* Sources */,
+				6964CC901ECEEAA200676CB6 /* Frameworks */,
+				6964CC911ECEEAA200676CB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6964CC951ECEEAA200676CB6 /* PBXTargetDependency */,
+			);
+			name = AnchorLivingUITests;
+			productName = AnchorLivingUITests;
+			productReference = 6964CC931ECEEAA200676CB6 /* AnchorLivingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6964CC671ECEEAA200676CB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = www.czy;
+				TargetAttributes = {
+					6964CC6E1ECEEAA200676CB6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6964CC871ECEEAA200676CB6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6964CC6E1ECEEAA200676CB6;
+					};
+					6964CC921ECEEAA200676CB6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6964CC6E1ECEEAA200676CB6;
+					};
+				};
+			};
+			buildConfigurationList = 6964CC6A1ECEEAA200676CB6 /* Build configuration list for PBXProject "AnchorLiving" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6964CC661ECEEAA200676CB6;
+			productRefGroup = 6964CC701ECEEAA200676CB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6964CC6E1ECEEAA200676CB6 /* AnchorLiving */,
+				6964CC871ECEEAA200676CB6 /* AnchorLivingTests */,
+				6964CC921ECEEAA200676CB6 /* AnchorLivingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6964CC6D1ECEEAA200676CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6964CC821ECEEAA200676CB6 /* LaunchScreen.storyboard in Resources */,
+				6964CC7F1ECEEAA200676CB6 /* Assets.xcassets in Resources */,
+				6964CC7D1ECEEAA200676CB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6964CC861ECEEAA200676CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6964CC911ECEEAA200676CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80B915683EE3B78657373476 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnchorLiving/Pods-AnchorLiving-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC755789EF805D9B49373845 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnchorLiving/Pods-AnchorLiving-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F40FB1958F68B07D465090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6964CC6B1ECEEAA200676CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6964CC7A1ECEEAA200676CB6 /* ViewController.m in Sources */,
+				6964CC771ECEEAA200676CB6 /* AppDelegate.m in Sources */,
+				6964CC741ECEEAA200676CB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6964CC841ECEEAA200676CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6964CC8D1ECEEAA200676CB6 /* AnchorLivingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6964CC8F1ECEEAA200676CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6964CC981ECEEAA200676CB6 /* AnchorLivingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6964CC8A1ECEEAA200676CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6964CC6E1ECEEAA200676CB6 /* AnchorLiving */;
+			targetProxy = 6964CC891ECEEAA200676CB6 /* PBXContainerItemProxy */;
+		};
+		6964CC951ECEEAA200676CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6964CC6E1ECEEAA200676CB6 /* AnchorLiving */;
+			targetProxy = 6964CC941ECEEAA200676CB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6964CC7B1ECEEAA200676CB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6964CC7C1ECEEAA200676CB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6964CC801ECEEAA200676CB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6964CC811ECEEAA200676CB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6964CC9A1ECEEAA200676CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6964CC9B1ECEEAA200676CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6964CC9D1ECEEAA200676CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693AFAA4C6B5123F6D0B5DCC /* Pods-AnchorLiving.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnchorLiving/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AnchorLiving";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6964CC9E1ECEEAA200676CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E5B93CA02491BF9253AC0A5 /* Pods-AnchorLiving.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnchorLiving/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AnchorLiving";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6964CCA01ECEEAA200676CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnchorLivingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AnchorLivingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnchorLiving.app/AnchorLiving";
+			};
+			name = Debug;
+		};
+		6964CCA11ECEEAA200676CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnchorLivingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AnchorLivingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnchorLiving.app/AnchorLiving";
+			};
+			name = Release;
+		};
+		6964CCA31ECEEAA200676CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnchorLivingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AnchorLivingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnchorLiving;
+			};
+			name = Debug;
+		};
+		6964CCA41ECEEAA200676CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnchorLivingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AnchorLivingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnchorLiving;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6964CC6A1ECEEAA200676CB6 /* Build configuration list for PBXProject "AnchorLiving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6964CC9A1ECEEAA200676CB6 /* Debug */,
+				6964CC9B1ECEEAA200676CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6964CC9C1ECEEAA200676CB6 /* Build configuration list for PBXNativeTarget "AnchorLiving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6964CC9D1ECEEAA200676CB6 /* Debug */,
+				6964CC9E1ECEEAA200676CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6964CC9F1ECEEAA200676CB6 /* Build configuration list for PBXNativeTarget "AnchorLivingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6964CCA01ECEEAA200676CB6 /* Debug */,
+				6964CCA11ECEEAA200676CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6964CCA21ECEEAA200676CB6 /* Build configuration list for PBXNativeTarget "AnchorLivingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6964CCA31ECEEAA200676CB6 /* Debug */,
+				6964CCA41ECEEAA200676CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6964CC671ECEEAA200676CB6 /* Project object */;
+}
